@@ -64,6 +64,8 @@ bool ArrayStack<ItemType>::isEmpty() const
 {
 	return top < 0;
 }
+
+#if 0 // #if 1 to compile as a standalone program, not a library
 int main()
 {
 	ArrayStack<int> numbers;
@@ -98,4 +100,4 @@ int main()
 	}
 	return 0;
 }
-
+#endif
