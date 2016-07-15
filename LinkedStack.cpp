@@ -139,6 +139,8 @@ bool LinkedStack<ItemType>::isEmpty() const
 {
 	return topPtr == nullptr;
 }
+
+#if 0 // #if 1 to compile as a standalone program, not a library
 int main()
 {
 	LinkedStack<int> numbers;
@@ -173,4 +175,4 @@ int main()
 	}
 	return 0;
 }
-
+#endif
